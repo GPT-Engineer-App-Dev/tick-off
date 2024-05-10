@@ -43,7 +43,7 @@ const Index = () => {
           aria-label="Add task"
           icon={<FaPlusCircle />}
           onClick={addTask}
-          colorScheme="green"
+          colorScheme="purple"
         />
         <List spacing={3} w="full">
           {tasks.map(task => (
